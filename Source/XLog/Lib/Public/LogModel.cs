@@ -345,27 +345,6 @@ namespace XLugia.Lib.XLog
                                 , logType
                                 , logCategory);
         }
-
-        /// <summary>
-        /// DB保存用SystemLogModel对象
-        /// </summary>
-        //internal SystemLogModel convertToSystemLogModel()
-        //{
-        //    SystemLogModel systemLogModel = new SystemLogModel();
-        //    systemLogModel.systemLogID = this.logID;
-        //    systemLogModel.logType = this.logType;
-        //    systemLogModel.logCategory = this.logCategory;
-        //    systemLogModel.logDateTime = this.logDateTime;
-
-        //    systemLogModel.systemLogAttributes = new List<SystemLogAttributeModel>();
-        //    systemLogModel.systemLogAttributes.Add(new SystemLogAttributeModel
-        //    {
-        //        attributeID = "LogContent",
-        //        attributeIndex = this.logIndex,
-        //        attributeValue = this.logContent
-        //    });
-        //    return systemLogModel;
-        //}
         #endregion
 
         public void Dispose()
