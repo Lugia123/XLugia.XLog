@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="XLugia.Lib.XLog.Reader.Model.LogReader.Default"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+    <Grid x:Name="bodyGrid" Loaded="bodyGrid_Loaded" Margin="5,3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="500*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" x:Name="menuGrid">
+            <Menu>
+                <MenuItem x:Name="openLogFileMenuButton" Header="打开日志文件" FontSize="16px" Click="openLogFileMenuButton_Click"></MenuItem>
+                <MenuItem x:Name="toolsMenuButton" Header="工具" FontSize="16px">
+                    <MenuItem x:Name="disposeButton" FontSize="16px" Click="disposeMenuButton_Click" Header="强制清理内存"/>
+                    <MenuItem x:Name="writeLogButton" Visibility="Collapsed" FontSize="16px" Click="writeLogButton_Click" Header="写日志测试"/>
+                </MenuItem>
+            </Menu>
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBox x:Name="logFileBlock" IsReadOnly="True" Text="C:\Log.exLog" FontSize="16" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" Margin="5,3,0,3">
+                <Button x:Name="searchButton" Content="检索" FontSize="16"/>
+            </Grid>
+            <Grid Margin="3,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="0.5*"/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="260"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="startTimeTextBlock" Text="00:00:00" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Grid.Column="1"/>
+                    <Slider x:Name="startTimeSlider" Maximum="86400" VerticalAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="260"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="endTimeTextBlock" Text="00:00:00" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Grid.Column="1"/>
+                    <Slider x:Name="endTimeSlider" Maximum="86400" VerticalAlignment="Center"/>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="3" x:Name="webBrowserGrid">
+            <WebBrowser x:Name="logViewerWebBrowser"/>
+        </Grid>
+        <Grid Grid.Row="4" Margin="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition Width="0.7*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" Margin="10,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.6*"/>
+                    <ColumnDefinition Width="0.4*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30*"/>
+                </Grid.RowDefinitions>
+                <Slider x:Name="pageSlider" Maximum="86400" VerticalAlignment="Center"/>
+                <TextBlock x:Name="pageDataCountTextBlock" Text="1/10页 共0条" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Center" Grid.Column="1"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <ComboBox x:Name="pageSizeListBox" Grid.Column="1" FontSize="16" Margin="0,3,0,0"/>
+                <Label Content="分页数" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</UserControl>

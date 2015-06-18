@@ -1,0 +1,4 @@
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XLog\bin\Release\XLugia.Lib.XLog.dll
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XLog\bin\Release\XLugia.Lib.XLog.pdb
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XLog\obj\Release\XLugia.Lib.XLog.dll
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XLog\obj\Release\XLugia.Lib.XLog.pdb

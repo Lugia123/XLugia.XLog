@@ -1,0 +1,6 @@
+﻿<Window x:Class="XLugia.Lib.XLog.Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="XLugia XLog性能演示" Height="600" Width="800">
+    <Grid x:Name="bodyGrid" Loaded="bodyGrid_Loaded"/>
+</Window>

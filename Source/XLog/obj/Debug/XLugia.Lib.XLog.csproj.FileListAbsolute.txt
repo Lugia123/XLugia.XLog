@@ -1,0 +1,14 @@
+E:\Project\LugiaGit\XLugia.Lib\Source\XLog\bin\Debug\XLugia.Lib.XLog.dll
+E:\Project\LugiaGit\XLugia.Lib\Source\XLog\bin\Debug\XLugia.Lib.XLog.pdb
+E:\Project\LugiaGit\XLugia.Lib\Source\XLog\obj\Debug\XLugia.Lib.XLog.dll
+E:\Project\LugiaGit\XLugia.Lib\Source\XLog\obj\Debug\XLugia.Lib.XLog.pdb
+E:\Project\LugiaGit\XLugia.Lib\Source\XLog\obj\Debug\XLugia.Lib.XLog.csprojResolveAssemblyReference.cache
+X:\Work\LugiaGitHub\XLugia.Log\Source\XLog\bin\Debug\XLugia.Lib.XLog.dll
+X:\Work\LugiaGitHub\XLugia.Log\Source\XLog\bin\Debug\XLugia.Lib.XLog.pdb
+X:\Work\LugiaGitHub\XLugia.Log\Source\XLog\obj\Debug\XLugia.Lib.XLog.csprojResolveAssemblyReference.cache
+X:\Work\LugiaGitHub\XLugia.Log\Source\XLog\obj\Debug\XLugia.Lib.XLog.dll
+X:\Work\LugiaGitHub\XLugia.Log\Source\XLog\obj\Debug\XLugia.Lib.XLog.pdb
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XLog\bin\Debug\XLugia.Lib.XLog.dll
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XLog\bin\Debug\XLugia.Lib.XLog.pdb
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XLog\obj\Debug\XLugia.Lib.XLog.dll
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XLog\obj\Debug\XLugia.Lib.XLog.pdb

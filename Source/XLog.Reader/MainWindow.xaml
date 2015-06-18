@@ -1,0 +1,6 @@
+﻿<Window x:Class="XLugia.Lib.XLog.Reader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="XLugia日志查看工具" Height="600" Width="800">
+    <Grid x:Name="bodyGrid" Loaded="bodyGrid_Loaded"/>
+</Window>

@@ -1,0 +1,7 @@
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XTool\bin\Release\XLugia.Lib.XTool.dll
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XTool\bin\Release\XLugia.Lib.XTool.pdb
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XTool\bin\Release\XLugia.Lib.XLog.dll
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XTool\bin\Release\XLugia.Lib.XLog.pdb
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XTool\obj\Release\XLugia.Lib.XTool.csprojResolveAssemblyReference.cache
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XTool\obj\Release\XLugia.Lib.XTool.dll
+X:\Work\LugiaGitHub\XLugia.XLog\Source\XTool\obj\Release\XLugia.Lib.XTool.pdb
